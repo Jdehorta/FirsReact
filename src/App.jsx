@@ -1,6 +1,7 @@
 
 import './App.css'
 import Card from './componentes/Card'
+import ShowHide from './componentes/ShowHide';
 import vehicles from './data/vehicles';
 
 
@@ -13,7 +14,10 @@ function App() {
     <div className="container">
     {vehiclesList}
     </div>
+
+    <ShowHide/>
   </div>
+
    
 }
 
