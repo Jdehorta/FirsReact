@@ -9,7 +9,8 @@ function ShowHide() {
   return (
     <div>
      
-        <button onClick={handerClick}> {show ? "Hide Text" : "Show text"}</button>
+        <button onClick={handerClick}>
+         {show ? "Hide Text" : "Show text"}</button>
 
         {show ? <h2>HIDE ME!!</h2> : ""}
         
